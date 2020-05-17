@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+  "name": "Triple Maximize Content",
+  "short_name": "Maximize",
+  "version": "0.1.0",
+  "developer": {
+    "name": "Anthony Ramine",
+    "url": "https://github.com/nox"
+  },
+  "description": "Fullscreen button that hides all bars even on macOS.",
+  "permissions": [
+    "activeTab",
+    "contextMenus"
+  ],
+  "browser_action": {
+    "default_title": "Triple Maximize Content"
+  },
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  }
+}
